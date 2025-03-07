@@ -146,10 +146,12 @@ Create Account
 Sign In
 iOS App
 Android App
+
 About GizmoCrate
 For Schools
 For Parents
 Careers
+
 Project Library
 Help Center
 Privacy & Terms
