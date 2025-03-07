@@ -220,6 +220,45 @@
   padding: 9.6rem 0;
 }
 
+.project {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.project-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.project-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.tag--robotics {
+  background-color: #ffa94d;
+}
+
+.tag--wireless {
+  background-color: #fcc419;
+}
+
+.tag--iot {
+  background-color: #3bc9db;
+  /* color: #fff */
+}
+
 .project-title {
   font-size: 2.4rem;
   color: #333;
@@ -236,6 +275,15 @@
 
 .project-attribute {
   font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.project-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e52718;
 }
 
 .project-img {

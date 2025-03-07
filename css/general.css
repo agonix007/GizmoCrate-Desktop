@@ -36,6 +36,7 @@ Paragraph default: 1.6
 
 --- 06 BORDER-RADIUS
 Default: 6px
+Medium: 11px
 
 --- 07 WHITESPACE
 
@@ -179,3 +180,7 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
+
+/* strong{
+    font-weight: 500;
+} */
