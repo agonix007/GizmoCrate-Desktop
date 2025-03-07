@@ -148,6 +148,7 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -160,6 +161,9 @@ body {
   /* Put transition on original "state" */
   transition: all 0.3s;
   /* Commonly used */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .btn--full:link,
@@ -188,6 +192,18 @@ body {
 
   /* Trick to add border inside */
   box-shadow: inset 0 0 0 2px #e52718;
+}
+
+.btn--form {
+  background-color: #e52718;
+  color: #e6ecf0;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fed103;
+  color: #00416c;
 }
 
 .link:link,
@@ -225,6 +241,13 @@ body {
   width: 3rem;
   height: 3rem;
   color: #e52718;
+}
+
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #fed103; */
+  /* outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(230, 236, 240, 0.5);
 }
 
 /* HELPER/SETTINGS CLASSES */
